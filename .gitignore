@@ -1,0 +1,8 @@
+node_modules/
+dist/
+qa/
+.DS_Store
+.env
+.env.*
+AGENTS.md
+design-qa.md

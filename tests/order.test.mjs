@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {totals,addLine} from '../src/order.js';
+import menu from '../src/menu.json' with {type:'json'};
+const chicken=menu.find(x=>x.id==='butter-chicken');
+const naan=menu.find(x=>x.id==='plain-garlic-naan');
+const options={quantity:1,spice:'Mild',vegan:false,note:''};
+test('empty basket has no total or discount',()=>assert.deepEqual(totals([]),{subtotal:0,discount:0,total:0}));
+test('real menu basket calculates discount in cents',()=>{let cart=addLine([],chicken,{...options,quantity:2,spice:'Medium'});cart=addLine(cart,naan,{...options,spice:''});assert.deepEqual(totals(cart),{subtotal:4830,discount:483,total:4347})});
+test('different heat, vegan choice and notes remain separate order lines',()=>{let cart=addLine([],chicken,options);cart=addLine(cart,chicken,{...options,spice:'Medium'});cart=addLine(cart,chicken,{...options,note:'No garnish'});assert.equal(cart.length,3);assert.equal(cart[1].spice,'Medium')});
+test('identical choices merge without mutating the previous cart',()=>{const before=addLine([],chicken,options);const after=addLine(before,chicken,options);assert.equal(after.length,1);assert.equal(after[0].quantity,2);assert.equal(before[0].quantity,1)});
+test('catalog preserves 89 unique priced dishes and dine-in stays outside takeaway',()=>{assert.equal(menu.length,89);assert.equal(new Set(menu.map(d=>d.id)).size,89);assert.ok(menu.every(d=>Number.isInteger(d.price)&&d.price>0));assert.ok(!menu.some(d=>/banquet/i.test(d.name)));assert.deepEqual(chicken.spice,['Mild','Medium']);assert.ok(menu.filter(d=>d.perPerson).every(d=>d.minQty===2))});

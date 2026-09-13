@@ -1,0 +1,1311 @@
+[
+  {
+    "id": "fish-pakora",
+    "name": "Fish Pakora",
+    "category": "Entrées",
+    "price": 2190,
+    "description": "Fish fillet dipped in mildly spiced chickpeas batter and deepfried",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "pan-fried-prawns",
+    "name": "Pan Fried Prawns",
+    "category": "Entrées",
+    "price": 1950,
+    "description": "Peeled prawn cutlets fried with ginger, garlic, onions and capsicum",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "prawn-pakora",
+    "name": "Prawn Pakora",
+    "category": "Entrées",
+    "price": 1890,
+    "description": "King prawn cutlets dipped in mildly spiced batter, deep fried and served with tamarind sauce",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-tikka-4-pce",
+    "name": "Chicken Tikka (4 Pce)",
+    "category": "Entrées",
+    "price": 1590,
+    "description": "Tender morsels of boneless chicken, marinated overnight in yoghurt and spices and roasted in the tandoori oven",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-pakora",
+    "name": "Chicken Pakora",
+    "category": "Entrées",
+    "price": 1490,
+    "description": "Boneless chicken pieces dipped in spiced chick-pea flour batter and deep fried",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "lamb-seekh-kebab-4-pce",
+    "name": "Lamb Seekh Kebab (4 Pce)",
+    "category": "Entrées",
+    "price": 1490,
+    "description": "Minced lamb, flavoured with exotic spices, pressed on a skewer then cooked in the tandoor",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-manchurian-dry",
+    "name": "Chicken Manchurian (Dry)",
+    "category": "Entrées",
+    "price": 2190,
+    "description": "Chicken pieces stir fried and finish with ginger, garlic gravy and schezwan, soy sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-manchurian-gravy",
+    "name": "Chicken Manchurian (Gravy)",
+    "category": "Entrées",
+    "price": 2590,
+    "description": "Chicken pieces stir fried and finish with ginger, garlic gravy and schezwan, soy sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chilli-chicken",
+    "name": "Chilli Chicken",
+    "category": "Entrées",
+    "price": 2090,
+    "description": "Boneless chicken pieces mixed in corn flour batter and deep fried then finished with fresh capsicum, onions and dash of hot chilli sauce",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "paneer-tikka",
+    "name": "Paneer Tikka",
+    "category": "Entrées",
+    "price": 2290,
+    "description": "Homemade cottage cheese marinated in ginger, garlic, yoghurt and cooked with capsicum, tomatoes & onions in tandoori oven.",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "vegetable-manchurian-dry",
+    "name": "Vegetable Manchurian (Dry)",
+    "category": "Entrées",
+    "price": 2090,
+    "description": "Vegetable balls stir fried and finish with ginger, garlic gravy and soy sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "vegetable-manchurian-gravy",
+    "name": "Vegetable Manchurian (Gravy)",
+    "category": "Entrées",
+    "price": 2490,
+    "description": "Vegetable balls stir fried and finish with ginger, garlic gravy and soy sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "cheese-chilli",
+    "name": "Cheese Chilli",
+    "category": "Entrées",
+    "price": 1990,
+    "description": "Cubed cottage cheese dipped in corn flour batter and half fried then finished with fresh capsicum, onions and dash of hot chilli sauce",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chilli-mushroom-dry",
+    "name": "Chilli Mushroom (Dry)",
+    "category": "Entrées",
+    "price": 1990,
+    "description": "Fresh mushrooms dipped in corn flour batter and half deep fried then finished with fresh capsicum, onions and dash of hot chilli sauce",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "tandoori-soya-chaap",
+    "name": "Tandoori Soya Chaap",
+    "category": "Entrées",
+    "price": 1990,
+    "description": "Soya chaap marinated with yoghurt cheese cream, herbs, spices and cooked in tandoor",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "vegetable-samosa-2-pce",
+    "name": "Vegetable Samosa (2 Pce)",
+    "category": "Entrées",
+    "price": 990,
+    "description": "Flaky pastry, filled with diced potatoes, peas, dry fruit and cumin seeds then fried golden brown",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "onion-rings",
+    "name": "Onion Rings",
+    "category": "Entrées",
+    "price": 850,
+    "description": "Onion rings, dipped in chick-pea flour batter & deep fried",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "mix-pakora",
+    "name": "Mix Pakora",
+    "category": "Entrées",
+    "price": 950,
+    "description": "Chopped vegetables mildly spiced, dipped in batter and deep fried",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "tandoori-combo-for-2-or-more",
+    "name": "Tandoori Combo (For 2 Or More)",
+    "category": "Entrées",
+    "price": 1150,
+    "description": "A combination of the above. it consists of 2 vege samosas, 2 mix pakoras, 2 chicken tikka and 2 lamb seekh kebab. served on a sizzling hot plate with mint & tamarind sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 2,
+    "perPerson": true
+  },
+  {
+    "id": "seafood-combo-for-2-or-more",
+    "name": "Seafood Combo (For 2 Or More)",
+    "category": "Entrées",
+    "price": 1300,
+    "description": "It consists of 6 x pan fried prawns, 2 x fish pakoras, 2 x lamb seekh kebab and 2 x chicken tikka served on a sizzling hot plate with mint & tamarind sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 2,
+    "perPerson": true
+  },
+  {
+    "id": "veg-platter-combo-for-2-or-more",
+    "name": "Veg Platter Combo (For 2 Or More)",
+    "category": "Entrées",
+    "price": 1100,
+    "description": "It consists of vege samosa, veg pakore and onion rings",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 2,
+    "perPerson": true
+  },
+  {
+    "id": "kids-butter-chicken-mild",
+    "name": "Kids Butter Chicken (Mild)",
+    "category": "For children",
+    "price": 1200,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "fish-chips",
+    "name": "Fish & Chips",
+    "category": "For children",
+    "price": 1090,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-nuggets-chips",
+    "name": "Chicken Nuggets & Chips",
+    "category": "For children",
+    "price": 1090,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "french-fries",
+    "name": "French Fries",
+    "category": "For children",
+    "price": 500,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "side-dish-platter-of-six",
+    "name": "Side Dish Platter Of Six",
+    "category": "Sides & salads",
+    "price": 1990,
+    "description": "Sweet mango chutney, pickles, raita, tomato and onion kachumber, mint sauce & tamarind sauce",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "papadums-crispy-wafers-4-pce",
+    "name": "Papadums (Crispy Wafers-4 Pce)",
+    "category": "Sides & salads",
+    "price": 200,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "indian-salad",
+    "name": "Indian Salad",
+    "category": "Sides & salads",
+    "price": 790,
+    "description": "Fresh carrots, cucumber, tomatoes, cabbage with a piece of lemon",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "onion-salad",
+    "name": "Onion Salad",
+    "category": "Sides & salads",
+    "price": 590,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "kuchumber-salad",
+    "name": "Kuchumber Salad",
+    "category": "Sides & salads",
+    "price": 690,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "tandoori-chicken-half",
+    "name": "Tandoori Chicken (Half)",
+    "category": "From the tandoor",
+    "price": 1600,
+    "description": "",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "tandoori-chicken-full",
+    "name": "Tandoori Chicken (Full)",
+    "category": "From the tandoor",
+    "price": 3000,
+    "description": "",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-tikka-boneless",
+    "name": "Chicken Tikka (Boneless)",
+    "category": "From the tandoor",
+    "price": 2890,
+    "description": "",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "butter-chicken",
+    "name": "Butter Chicken",
+    "category": "Chicken",
+    "price": 2190,
+    "description": "Tender tandoori chicken in a rich, creamy tomato sauce. A much-loved Indian Star classic.",
+    "spice": [
+      "Mild",
+      "Medium"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "mango-chicken",
+    "name": "Mango Chicken",
+    "category": "Chicken",
+    "price": 2190,
+    "description": "An exotic curry with tender boneless chicken breast pieces cooked in a subtle mango sauce",
+    "spice": [
+      "Mild",
+      "Medium"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-tikka-masala",
+    "name": "Chicken Tikka Masala",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "Succulent boneless tandoori chicken (thigh) morsels cooked in a spicy tomato & onion gravy with green peppers",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "karahi-chicken",
+    "name": "Karahi Chicken",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "Boneless chicken breast cooked in ginger garlic and spices with tomato & onion gravy",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-vindaloo",
+    "name": "Chicken Vindaloo",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "Spicy chicken curry straight from the beaches of goa (must be served spicy hot)",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-balti",
+    "name": "Chicken Balti",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "Boneless chicken breast pieces cooked with onion, capsicum and a selection of spices and garnished with coriander",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-methi",
+    "name": "Chicken Methi",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "Boneless chicken breast pieces cooked in cashew nut creamy gravy and fenugreek leaves with a selection of spices and garnished with coriander",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-korma",
+    "name": "Chicken Korma",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "North indian style curry boneless chicken breast cooked in creamy cashew nut gravy garnished with slice almonds",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "saag-chicken",
+    "name": "Saag Chicken",
+    "category": "Chicken",
+    "price": 2390,
+    "description": "Boneless chicken breast cooked in fine spinach puree with indian herbs & spices",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "rogan-josh",
+    "name": "Rogan Josh",
+    "category": "Lamb & goat",
+    "price": 2490,
+    "description": "Diced lamb cooked with ginger, garlic, onions and spices in a traditional north indian style",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "saag-gosht",
+    "name": "Saag Gosht",
+    "category": "Lamb & goat",
+    "price": 2490,
+    "description": "Diced lamb cooked with tomatoes, in fine spinach puree with indian spices (a punjabi lamb curry)",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "lamb-madras",
+    "name": "Lamb Madras",
+    "category": "Lamb & goat",
+    "price": 2490,
+    "description": "Lamb sauteed with onions, tomatoes, cashew nut gravy & cooked in coconut cream & garnished with coconut powder",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "lamb-balti",
+    "name": "Lamb Balti",
+    "category": "Lamb & goat",
+    "price": 2490,
+    "description": "Boneless lamb cooked with onion, capsicum and a selection of spices & garnished with coriander",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "lamb-korma",
+    "name": "Lamb Korma",
+    "category": "Lamb & goat",
+    "price": 2490,
+    "description": "Diced lamb cooked with cashewnut gravy & indian herbs & garnished with sliced almonds",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "goat-curry",
+    "name": "Goat Curry",
+    "category": "Lamb & goat",
+    "price": 2690,
+    "description": "Goat curry, prepared with Indian spices. Choose your preferred heat.",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "shahi-korma",
+    "name": "Shahi Korma",
+    "category": "Beef",
+    "price": 2390,
+    "description": "Beef cooked in delicious cashewnut gravy, garnished with sliced almonds and coriander",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "beef-madras",
+    "name": "Beef Madras",
+    "category": "Beef",
+    "price": 2390,
+    "description": "Delicious medium hot beef curry, cooked with onions, tomato, cashews gravy, garnished with coconut powder, south indian style",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "beef-vindaloo",
+    "name": "Beef Vindaloo",
+    "category": "Beef",
+    "price": 2390,
+    "description": "Spicy beef curry straight from the exotic beaches of goa (must be served spicy hot)",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "beef-masala",
+    "name": "Beef Masala",
+    "category": "Beef",
+    "price": 2390,
+    "description": "Beef cooked in a spicy tomato gravy & indian garam masalas",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "fish-masala-curry",
+    "name": "Fish Masala Curry",
+    "category": "Seafood",
+    "price": 2590,
+    "description": "Fish fillets cooked in a fine thick tomato & onion gravy and indian masalas",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "prawn-malabari",
+    "name": "Prawn Malabari",
+    "category": "Seafood",
+    "price": 2590,
+    "description": "Peeled prawns cooked with creamy cashew nut gravy & fresh coconut milk",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "prawn-masala",
+    "name": "Prawn Masala",
+    "category": "Seafood",
+    "price": 2590,
+    "description": "Succulent prawns cooked in spicy tomato gravy with green peppers",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "butter-prawn",
+    "name": "Butter Prawn",
+    "category": "Seafood",
+    "price": 2590,
+    "description": "Peeled prawns cooked in creamy tomato flavoured sauce",
+    "spice": [
+      "Mild",
+      "Medium"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "vegetable-jalfrezi",
+    "name": "Vegetable Jalfrezi",
+    "category": "Vegetarian",
+    "price": 2090,
+    "description": "Fresh seasonal vegetables and cottage cheese cooked in a spicy gravy",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "mixed-vegetables",
+    "name": "Mixed Vegetables",
+    "category": "Vegetarian",
+    "price": 2090,
+    "description": "Fresh seasonal vegetables and cottage cheese cooked in aromatic indian spices (dry)",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "karahi-paneer",
+    "name": "Karahi Paneer",
+    "category": "Vegetarian",
+    "price": 2190,
+    "description": "Cubed cottage cheese cooked in thick spicy tomato gravy and finished with capsicums and onions",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "paneer-mattar",
+    "name": "Paneer Mattar",
+    "category": "Vegetarian",
+    "price": 2190,
+    "description": "Cottage cheese and peas cooked together with spices, tomatoes and herbs",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "saag-paneer",
+    "name": "Saag Paneer",
+    "category": "Vegetarian",
+    "price": 2190,
+    "description": "Soft paneer in a silky spinach purée, gently cooked with aromatic spices.",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "malai-kofta",
+    "name": "Malai Kofta",
+    "category": "Vegetarian",
+    "price": 2290,
+    "description": "Mashed potatoes and cottage cheese balls with dry fruit, deep fried and cooked in a tomato & cashew nuts gravy",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "paneer-makhni",
+    "name": "Paneer Makhni",
+    "category": "Vegetarian",
+    "price": 2190,
+    "description": "Cubes of cottage cheese, cooked in a creamy tomato flavoured sauce",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "saag-aloo",
+    "name": "Saag Aloo",
+    "category": "Vegetarian",
+    "price": 1990,
+    "description": "Potatoes cooked in a fine mild puree of spinach and lightly spiced",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": true,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "aloo-gobi",
+    "name": "Aloo Gobi",
+    "category": "Vegetarian",
+    "price": 1990,
+    "description": "Potatoes, cauliflower & special spices cooked together & garnished with fresh coriander",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": true,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "bombay-aloo",
+    "name": "Bombay Aloo",
+    "category": "Vegetarian",
+    "price": 1990,
+    "description": "Diced fried potatoes cooked with cumin seeds & herbs",
+    "spice": [
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": true,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chana-masala-chick-pea-masala",
+    "name": "Chana Masala (Chick-Pea Masala)",
+    "category": "Vegetarian",
+    "price": 1990,
+    "description": "Chick peas cooked with onion and spiced gravy",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": true,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "dal-moong-yellow-dal",
+    "name": "Dal Moong (Yellow Dal)",
+    "category": "Vegetarian",
+    "price": 2090,
+    "description": "Yellow lentil cooked with onion, tomato & a selection of spices (can be served mild or hot)",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": true,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "dal-makhni",
+    "name": "Dal Makhni",
+    "category": "Vegetarian",
+    "price": 2090,
+    "description": "Black lentils stewed on a slow fire overnight, & finished with onion, tomatoes & a selection of spices garnished with coriander",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "chicken-biryani",
+    "name": "Chicken Biryani",
+    "category": "Rice & biryani",
+    "price": 2390,
+    "description": "Rice cooked with boneless chicken, herbs and spices",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "lamb-biryani",
+    "name": "Lamb Biryani",
+    "category": "Rice & biryani",
+    "price": 2450,
+    "description": "Rice cooked with lamb, herbs and spices",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "prawn-biryani",
+    "name": "Prawn Biryani",
+    "category": "Rice & biryani",
+    "price": 2750,
+    "description": "Rice cooked with prawns, herbs and spices",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "vegetable-biryani",
+    "name": "Vegetable Biryani",
+    "category": "Rice & biryani",
+    "price": 2190,
+    "description": "Rice cooked with vegetables, herbs and spices",
+    "spice": [
+      "Mild",
+      "Medium",
+      "Hot"
+    ],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "cauliflower-rice",
+    "name": "Cauliflower Rice",
+    "category": "Rice & biryani",
+    "price": 1290,
+    "description": "",
+    "spice": [],
+    "gf": true,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "pulao-rice",
+    "name": "Pulao Rice",
+    "category": "Rice & biryani",
+    "price": 1000,
+    "description": "Basmati rice cooked in cashewnuts, sultanas and fresh herbs",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "zeera-rice",
+    "name": "Zeera Rice",
+    "category": "Rice & biryani",
+    "price": 800,
+    "description": "Basmati rice cooked with cumin seeds",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "plain-basmati-rice",
+    "name": "Plain Basmati Rice",
+    "category": "Rice & biryani",
+    "price": 300,
+    "description": "",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "plain-naan",
+    "name": "Plain Naan",
+    "category": "Breads",
+    "price": 400,
+    "description": "Plain flour bread cooked in tandoor oven",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "butter-naan",
+    "name": "Butter Naan",
+    "category": "Breads",
+    "price": 450,
+    "description": "Plain flour bread cooked in tandoor oven garnished with butter",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "plain-garlic-naan",
+    "name": "Plain Garlic Naan",
+    "category": "Breads",
+    "price": 450,
+    "description": "Plain flour bread garnished with garlic and coriander",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "butter-garlic-naan",
+    "name": "Butter Garlic Naan",
+    "category": "Breads",
+    "price": 500,
+    "description": "Plain flour bread garnished with garlic coriander and butter",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "peshwari-naan",
+    "name": "Peshwari Naan",
+    "category": "Breads",
+    "price": 790,
+    "description": "Special naan from peshawar, plain flour bread with sultana (raisins), coconut and cottage cheese",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "keema-naan",
+    "name": "Keema Naan",
+    "category": "Breads",
+    "price": 890,
+    "description": "Naan stuffed with spiced lamb mince mixture",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": false,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "cheese-naan",
+    "name": "Cheese Naan",
+    "category": "Breads",
+    "price": 690,
+    "description": "Naan stuffed with grated cheese and garnished with fresh coriander leaves",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "cheese-garlic-naan",
+    "name": "Cheese Garlic Naan",
+    "category": "Breads",
+    "price": 890,
+    "description": "Naan stuffed with grated cheese garnished with garlic, coriander and butter",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "parantha",
+    "name": "Parantha",
+    "category": "Breads",
+    "price": 690,
+    "description": "Hand rolled bread made from wholemeal flour, stuffed with clarified butter",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "stuffed-kulcha",
+    "name": "Stuffed Kulcha",
+    "category": "Breads",
+    "price": 790,
+    "description": "Plain flour bread stuffed with spiced potatoes and peas",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "plain-roti",
+    "name": "Plain Roti",
+    "category": "Breads",
+    "price": 400,
+    "description": "Handrolled bread made from wholemeal flour",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  },
+  {
+    "id": "butter-roti",
+    "name": "Butter Roti",
+    "category": "Breads",
+    "price": 450,
+    "description": "Handrolled bread made with wholemeal flour garnished with butter",
+    "spice": [],
+    "gf": false,
+    "veganOption": false,
+    "vegetarian": true,
+    "minQty": 1,
+    "perPerson": false
+  }
+]
