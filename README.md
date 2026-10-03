@@ -4,7 +4,7 @@
 
 Responsive restaurant concept with 89 menu dishes, dietary filters, spice and quantity choices, basket, 10% pickup calculation and simulated checkout. Includes restaurant story, awards, contact details and the supplied staff photograph.
 
-This is a demonstration. Orders, payments, bookings and enquiry messages are not transmitted. Personal form values and baskets remain in browser memory and reset on reload.
+This is a demonstration. The local basket, checkout, bookings and enquiry forms do not transmit orders or messages. The voice demo connects to the supplied Indian Star Assistant on ElevenLabs and shares microphone audio only after the visitor starts it and permits microphone access. Use sample details for client demonstrations. Voice-agent behavior and external tools are managed in ElevenLabs. Personal checkout form values and baskets remain in browser memory and reset on reload.
 
 ## Development
 
