@@ -17,7 +17,7 @@ npm run dev
 
 ```sh
 npm run build
-node --test tests/order.test.mjs
+node --test tests/order.test.mjs tests/voice-session.test.mjs
 npm run test:sites
 ```
 

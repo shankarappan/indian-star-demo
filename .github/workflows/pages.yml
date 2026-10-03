@@ -23,7 +23,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: node --test tests/order.test.mjs
+      - run: node --test tests/order.test.mjs tests/voice-session.test.mjs
       - run: npm run build
       - run: npm run test:sites
       - uses: actions/configure-pages@v5

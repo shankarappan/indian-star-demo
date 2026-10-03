@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ConversationProvider, useConversation } from '@elevenlabs/react';
 import { Phone, Microphone, MicrophoneSlash, ArrowUpRight } from '@phosphor-icons/react';
 
-const AGENT_ID = 'agent_7501m3zwhxkpezqvtb4e2v4b2h0w';
+import { startVoiceSession } from './voice-session.js';
 
 function VoicePanel() {
   const [error, setError] = useState('');
@@ -15,12 +15,12 @@ function VoicePanel() {
   const connected = conversation.status === 'connected';
   const busy = conversation.status === 'connecting';
   function start() {
-    setError(''); setFinished(false); conversation.setMuted(false);
-    if (!navigator.mediaDevices?.getUserMedia) {
-      setError('Voice conversations need a microphone-enabled browser. Try Chrome, Edge or Safari, or call the restaurant below.');
-      return;
+    setError(''); setFinished(false);
+    try {
+      startVoiceSession(conversation, navigator.mediaDevices);
+    } catch (err) {
+      setError(err.message || 'We couldn’t start the voice demo. Please try again.');
     }
-    conversation.startSession({ agentId: AGENT_ID, connectionType: 'webrtc' });
   }
   const status = busy ? 'Connecting…' : connected ? conversation.isMuted ? 'Microphone muted' : conversation.isSpeaking ? 'Assistant is speaking' : 'Listening to you' : finished ? 'Conversation ended' : 'Ready when you are';
   return <div className="voice-panel">
